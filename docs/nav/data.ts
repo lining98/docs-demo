@@ -262,7 +262,7 @@ export const NAV_DATA: NavData[] = [
     title: "类库",
     items: [
       {
-        icon: "http://www.axios-js.com/icon/apple-touch-icon-114x114.png",
+        icon: "http://www.axios-js.com/icon/favicon-96x96.png",
         title: "axios中文文档",
         desc: "易用、简洁且高效的http库",
         link: "http://www.axios-js.com/zh-cn/docs/",
@@ -280,6 +280,7 @@ export const NAV_DATA: NavData[] = [
       //   link: "",
       // },
       {
+        // icon: "",
         icon: "http://momentjs.cn/static/img/moment-favicon.png",
         title: "Monment",
         desc: "JavaScript 日期处理类库",
@@ -451,7 +452,7 @@ export const NAV_DATA: NavData[] = [
         link: "http://webgl3d.cn/",
       },
       {
-        icon: "https://threejs.org/files/favicon_white.ico",
+        icon: "https://threejs.org/files/favicon.ico",
         title: "threejs",
         desc: "",
         link: "https://threejs.org/",
