@@ -16,7 +16,7 @@ export default defineConfig({
   },
   themeConfig: {
     siteTitle: "柠檬小窝", //左上角的
-    logo: "/img/logo.png", //左上角的logo,注意：它的路径是从public文件夹开始的，所以这里引用的是public/logo.jpg这张图
+    logo: "/logo.png", //左上角的logo,注意：它的路径是从public文件夹开始的，所以这里引用的是public/logo.jpg这张图
     nav,
     sidebar,
     /* 右侧大纲配置 */
