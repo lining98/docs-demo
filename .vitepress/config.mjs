@@ -2,9 +2,9 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-	base: 'docs-demo',
-	title: 'aaaaa',
-	description: 'bbbbb',
+	base: '/docs-demo/',
+	title: 'aaaaaaa',
+	description: 'bbbbbbb',
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
