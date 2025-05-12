@@ -21,7 +21,9 @@ export default defineConfig({
 				],
 			},
 		],
-
-		socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
+		search: {
+			provider: 'local',
+		},
+		socialLinks: [{ icon: 'github', link: 'https://github.com/lining98/docs-demo' }],
 	},
 });
