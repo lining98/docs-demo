@@ -2,23 +2,24 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-	base: '/docs-demo/',
-	title: 'aaaaaaa',
-	description: 'bbbbbbb',
+	base: '/shj-docs/',
+	title: 'My Docs',
+	description: '',
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
 			{ text: 'Home', link: '/' },
-			{ text: 'Examples', link: '/markdown-examples' },
+			{ text: 'Examples', link: '/table/index' },
 		],
 
 		sidebar: [
 			{
-				text: 'Examples',
-				items: [
-					{ text: 'Markdown Examples', link: '/markdown-examples' },
-					{ text: 'Runtime API Examples', link: '/api-examples' },
-				],
+				text: 'table',
+				items: [{ text: '表格', link: '/table/index' }],
+			},
+			{
+				text: 'model',
+				items: [{ text: '弹窗', link: '/model/index' }],
 			},
 		],
 		search: {
