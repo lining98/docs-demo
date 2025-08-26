@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress';
+import { nav, sidebar } from './configs';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,24 +8,24 @@ export default defineConfig({
 	description: '',
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
-		nav: [
-			{ text: 'Home', link: '/' },
-			{ text: 'Examples', link: '/table/index' },
-		],
-
-		sidebar: [
-			{
-				text: 'table',
-				items: [{ text: '表格', link: '/table/index' }],
-			},
-			{
-				text: 'model',
-				items: [{ text: '弹窗', link: '/model/index' }],
-			},
-		],
+		nav,
+		sidebar,
 		search: {
 			provider: 'local',
 		},
-		socialLinks: [{ icon: 'github', link: 'https://github.com/lining98/docs-demo' }],
+		markdown: {
+			lineNumbers: true,
+		},
+		/* 右侧大纲配置 */
+		outline: {
+			level: 'deep',
+			label: '本页目录',
+		},
+
+		docFooter: {
+			prev: '上一篇',
+			next: '下一篇',
+		},
+		// socialLinks: [{ icon: 'github', link: 'https://github.com/lining98/docs-demo' }],
 	},
 });
